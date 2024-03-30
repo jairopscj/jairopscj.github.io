@@ -1,0 +1,94 @@
+
+@media (min-width:1100px){ 
+    main .section-beneficios{
+        display:grid;
+        grid-template-columns: 0.3fr 1fr 1fr 0.3fr;
+        padding: 20px 50px;
+    }
+    main .section-beneficios-img{
+        grid-column: 2/3;
+    }
+    main .section-beneficios-info{
+        grid-column: 3/4;
+    }
+}
+@media (min-width:800px) {
+    header nav{
+        display: flex;
+    }
+    header .logo-header{
+        display:none;
+    }
+    main .section-main{
+        width: 100%;
+        height: 500px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 0.3fr 2fr 1fr 0.3fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        padding: 40px;
+    }
+    main .section-main--info{
+        grid-column: 2/3;
+    }
+    main .section-main--img{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .section-beneficios{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 50px;
+    }
+    main .section-beneficios-img-terapia{
+        width: 360px;
+    }
+
+    .biografia{
+        display: grid;
+        grid-template-columns: 0.3fr 1fr 1fr 0.3fr;
+        align-items: center
+    }
+    .biografia-info{
+        grid-column: 2/3;
+    }
+}
+@media (min-width:730px){
+    body main .section-services-info{
+        width: 560px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-rows: 2fr 1fr ;
+        gap: 6px;
+        align-items: center;
+    }
+    .section-services-infoTipos{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .section-services-infoTipos{
+        padding: 4px;
+    }
+    .services-online{
+        border-right: 2px solid var(--black);
+        margin-right: 6px;
+    }
+}
+
+@media (min-width:560px){
+    main .section-main--info h1{
+        margin-top: 12px;
+    }
+    main .section-main--info p{
+        margin: 0px;
+    }
+}
+@media (min-width:453px){
+    .section-beneficios-info p{
+        align-items: center;
+    }
+}
